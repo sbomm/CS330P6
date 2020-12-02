@@ -1,0 +1,224 @@
+main {
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+/* navigation bar */
+
+nav.top-nav-bar{
+    background-color: #28b;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 4px 4px #0004;
+    padding-left: 2em;
+    text-align: center;
+}
+
+nav.top-nav-bar ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav.top-nav-bar li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color: #fffe;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    padding-left: 20px;
+    user-select: none;
+    position: relative;
+}
+
+nav.top-nav-bar li:hover {
+    text-decoration: underline;
+}
+
+nav.top-nav-bar li:active {
+    color: #fff;
+}
+
+/* contact info */
+
+#contact-content{
+    margin-top: 0px;
+    background-color: #28b;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px;
+    color: #fff;
+    position: relative;
+    /*user-select: none;
+*/}
+
+/* biography */
+
+.bio-wrapper {
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr;
+	grid-template-rows: 1fr;
+    grid-column-gap: 200px;
+}
+
+.bio-info{
+    width: 400px;
+    /*margin-left: 90px;*/
+    text-align: center;
+    font-size: larger;
+    user-select: none;
+    justify-self: center;
+    align-self: center;
+}
+
+.bio-picture{
+    width: 400px;
+    height: 500px;
+    justify-self: right;
+    user-select: none;
+}
+
+/* home page */
+
+.welcome{
+    background-image: url("images/Picture1-1.jpg");
+    background-size: cover;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(80, 128, 59);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    text-align: center;
+    user-select: none;
+}
+
+.welcome-message{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 150px;
+    width: 300px;
+    margin-left: 200px;
+    color: #28b;
+}
+
+
+.home-pic{
+    width: 400px;
+    height: 400px;
+    justify-self: right;
+    border-radius: 50%;
+}
+
+.project-intro{
+    text-align: center;
+    user-select: none;
+}
+
+.projects{
+    display: grid;
+	grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.85fr 0.15fr;
+    text-align: center;
+    grid-column-gap: 10px;
+    border-color: #000;
+    border: black;
+    user-select: none;
+}
+
+.project-image{
+    width: 600px;
+    height: 400px;
+    border-radius: 20%;
+}
+
+.project-image:hover{
+    opacity: 0.6;
+}
+
+.project-details{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.project-detail-des{
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    user-select: none;
+}
+
+.project-details:hover {
+    text-decoration: underline;
+}
+
+.project-details:active {
+    color: #20d;
+}
+
+/* project page */
+
+.project-wrapper{
+    display: grid;
+	grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    text-align: center;
+    grid-row-gap: 50px;
+    margin-left: 30px;
+    margin-right: 25px;
+    user-select: none;
+}
+
+#project1{
+    display: grid;
+	grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    grid-column-gap: 75px;
+    text-align: center;
+}
+
+#project2{
+    display: grid;
+	grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    grid-column-gap: 150px;
+    text-align: center;
+}
+
+.project-image1{
+    width: 600px;
+    height: 400px;
+    justify-self: start;
+}
+
+.project-image2{
+    width: 600px;
+    height: 400px;
+    justify-self: end;
+}
+
+.project-info{
+    width: 400px;
+    justify-self: center;
+    margin-left: 45px;
+}
